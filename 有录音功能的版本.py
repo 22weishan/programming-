@@ -35,7 +35,7 @@ with st.sidebar:
     uploaded_file = st.file_uploader("或上传音频文件", type=['mp3', 'wav', 'm4a'])
     
     # 字幕文件上传
-    subtitle_file = st.file_uploader("上传字幕文件", type=['srt', 'vtt', 'txt'])
+    subtitle_file = st.file_uploader("上传字幕文件", type=['srt', 'vtt', 'txt', 'pdf'])
 
 # 主界面
 st.title("🎧 英语听力练习播放器")
